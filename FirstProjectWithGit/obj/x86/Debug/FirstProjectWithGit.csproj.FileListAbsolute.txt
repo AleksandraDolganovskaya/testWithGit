@@ -1,0 +1,9 @@
+C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\bin\Debug\FirstProjectWithGit.exe
+C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\bin\Debug\FirstProjectWithGit.pdb
+C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.Form1.resources
+C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.Properties.Resources.resources
+C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.csproj.GenerateResource.Cache
+C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.exe
+C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.pdb
+C:\Users\Шурупчик\Documents\FirstProjectWithGit\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.exe
+C:\Users\Шурупчик\Documents\FirstProjectWithGit\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.pdb

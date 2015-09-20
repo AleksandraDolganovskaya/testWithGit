@@ -36,6 +36,7 @@
             this.txtBoxForSecondNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtBoxResult = new System.Windows.Forms.TextBox();
+            this.btn_umn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,6 +49,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_umn);
             this.groupBox1.Controls.Add(this.btndel);
             this.groupBox1.Controls.Add(this.btnClear);
             this.groupBox1.Controls.Add(this.btnAdd);
@@ -61,7 +63,7 @@
             // btndel
             // 
             this.btndel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btndel.Location = new System.Drawing.Point(94, 19);
+            this.btndel.Location = new System.Drawing.Point(86, 19);
             this.btndel.Name = "btndel";
             this.btndel.Size = new System.Drawing.Size(33, 28);
             this.btndel.TabIndex = 2;
@@ -115,6 +117,17 @@
             this.txtBoxResult.Size = new System.Drawing.Size(211, 20);
             this.txtBoxResult.TabIndex = 4;
             // 
+            // btn_umn
+            // 
+            this.btn_umn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btn_umn.Location = new System.Drawing.Point(125, 19);
+            this.btn_umn.Name = "btn_umn";
+            this.btn_umn.Size = new System.Drawing.Size(33, 28);
+            this.btn_umn.TabIndex = 3;
+            this.btn_umn.Text = "*";
+            this.btn_umn.UseVisualStyleBackColor = true;
+            this.btn_umn.Click += new System.EventHandler(this.btn_umn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -143,6 +156,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btndel;
+        private System.Windows.Forms.Button btn_umn;
     }
 }
 

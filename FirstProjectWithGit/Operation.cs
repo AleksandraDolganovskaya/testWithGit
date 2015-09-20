@@ -12,9 +12,15 @@ namespace FirstProjectWithGit
         {
             return firstNumber + secondNumber;
         }
+
         public double Del(double firstNumber, double secondNumber)
         {
             return firstNumber - secondNumber;
+        }
+
+        public double Umn(double firstNumber, double secondNumber)
+        {
+            return firstNumber * secondNumber;
         }
     }
 }

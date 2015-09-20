@@ -54,5 +54,18 @@ namespace FirstProjectWithGit
                 CLear();
             }
         }
+
+        private void btn_umn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtBoxResult.Text = operation.Umn(Convert.ToDouble(txtBoxForFirstNumber.Text), Convert.ToDouble(txtBoxForSecondNumber.Text)).ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Неправильный ввод!");
+                CLear();
+            }
+        }
     }
 }

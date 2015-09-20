@@ -41,5 +41,18 @@ namespace FirstProjectWithGit
             txtBoxForSecondNumber.Clear();
             txtBoxResult.Clear();
         }
+
+        private void btndel_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtBoxResult.Text = operation.Del(Convert.ToDouble(txtBoxForFirstNumber.Text), Convert.ToDouble(txtBoxForSecondNumber.Text)).ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Неправильный ввод!");
+                CLear();
+            }
+        }
     }
 }

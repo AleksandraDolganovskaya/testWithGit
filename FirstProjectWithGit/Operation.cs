@@ -12,5 +12,9 @@ namespace FirstProjectWithGit
         {
             return firstNumber + secondNumber;
         }
+        public double Del(double firstNumber, double secondNumber)
+        {
+            return firstNumber - secondNumber;
+        }
     }
 }

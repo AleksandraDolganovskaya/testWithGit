@@ -30,12 +30,12 @@
         {
             this.txtBoxForFirstNumber = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btndel = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtBoxForSecondNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtBoxResult = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btndel);
             this.groupBox1.Controls.Add(this.btnClear);
             this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Location = new System.Drawing.Point(12, 38);
@@ -57,6 +57,17 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Операции";
+            // 
+            // btndel
+            // 
+            this.btndel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btndel.Location = new System.Drawing.Point(94, 19);
+            this.btndel.Name = "btndel";
+            this.btndel.Size = new System.Drawing.Size(33, 28);
+            this.btndel.TabIndex = 2;
+            this.btndel.Text = "-";
+            this.btndel.UseVisualStyleBackColor = true;
+            this.btndel.Click += new System.EventHandler(this.btndel_Click);
             // 
             // btnClear
             // 
@@ -104,16 +115,6 @@
             this.txtBoxResult.Size = new System.Drawing.Size(211, 20);
             this.txtBoxResult.TabIndex = 4;
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(94, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(33, 28);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,7 +142,7 @@
         private System.Windows.Forms.TextBox txtBoxResult;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btndel;
     }
 }
 

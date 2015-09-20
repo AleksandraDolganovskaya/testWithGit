@@ -7,3 +7,5 @@ C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\o
 C:\Users\Шурупчик\AppData\Local\Temporary Projects\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.pdb
 C:\Users\Шурупчик\Documents\FirstProjectWithGit\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.exe
 C:\Users\Шурупчик\Documents\FirstProjectWithGit\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.pdb
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.exe
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\obj\x86\Debug\FirstProjectWithGit.pdb

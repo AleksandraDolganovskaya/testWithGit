@@ -1,0 +1,7 @@
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\bin\Release\FirstProjectWithGit.exe
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\bin\Release\FirstProjectWithGit.pdb
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\obj\x86\Release\FirstProjectWithGit.Form1.resources
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\obj\x86\Release\FirstProjectWithGit.Properties.Resources.resources
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\obj\x86\Release\FirstProjectWithGit.csproj.GenerateResource.Cache
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\obj\x86\Release\FirstProjectWithGit.exe
+C:\Users\user\Documents\qwe\testWithGit\FirstProjectWithGit\obj\x86\Release\FirstProjectWithGit.pdb
